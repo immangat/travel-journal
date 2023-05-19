@@ -1,0 +1,70 @@
+
+.card-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card--image{
+    max-width: 125px;
+    max-height: 168px;
+    flex:1;
+}
+
+.card--image img {
+     height: 100%;
+     width: 125px;
+     border-radius: 10px;
+}
+
+
+.card--text{
+    padding: 4%;
+    flex:2;
+}
+
+.card--text *{
+   text-align: left;
+}
+
+.card--text-title{
+    margin-top: 1%;
+    margin-bottom: 0.5%;
+}
+.card--text--location *{
+    font-size: 10.24px;
+}
+.card--text--dates{
+    font-size: 10.24px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0.5%;
+
+}
+
+.card--text--description{
+    text-align: left;
+    font-size: 10.24px;
+    margin: 0;
+}
+
+.card--text--location--icon{
+    color: #F55A5A;
+    margin-right: 1px;
+}
+
+.card--text--location--country{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-right: 4px;
+}
+
+.card--text--location--maps a{
+    color: #918E9B;
+}
+
+hr{
+    
+    border: 0;
+    
+}
+

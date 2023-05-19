@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+.cards{
+  padding: 2% 30%;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -36,3 +40,35 @@
     transform: rotate(360deg);
   }
 }
+
+/* Styles for screens larger than or equal to 768px */
+@media (min-width: 910px) {
+  .cards{
+    padding: 2% 30%;
+  }
+  
+}
+
+@media(max-width: 503px){
+  .cards{
+    padding: 2% 10%;
+  }
+  
+}
+
+/* Styles for screens smaller than or equal to 480px */
+@media (min-width: 504px) and (max-width: 601px) {
+  .cards{
+    padding: 2% 15%;
+  }
+  
+}
+
+/* Styles for screens between 480px and 768px */
+/* Styles for screens between 480px and 768px */
+@media (min-width: 602px) and (max-width: 909px) {
+  .cards{
+    padding: 2% 20%;
+  }
+  
+} 
